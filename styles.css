@@ -5,15 +5,23 @@
 	background:rgb(246,247,251);
 	width:500px;
 	height:200px;
-	justify-content:space-evenly;
+	gap:25px;
+	justify-content:center;
+	
 	
 }
 .bar{
 	display:flex;
+	font-weight:300;
+	color:#9C9CA6;
+	text-align:center;
+	justify-tracks:center;
 	justify-content:center;
 }
 .buttons{
+	display :flex;
 	align-self:center;	
+	gap:15px;
 }
 .circle{
 	width:30px;
@@ -21,12 +29,11 @@
 	background:white;
 	border-radius:20px;
 	border:3px solid rgb(224,224,224);
-	
 }
 .line{
 	width:40px;
 	height:4px;
-	background:rgb(224,224,224);
+	background:rgb(224,224,224);;
 	align-self:center;
 }
 .prev,.next{
